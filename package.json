@@ -1,0 +1,37 @@
+{
+	"name": "ratesapi-to-file",
+	"version": "0.0.1",
+	"description": "Grabs the current exchange rates from ratesapi.io and writes them to a formatted csv file",
+	"license": "MIT",
+	"repository": "awaigand/ratesapi-to-file",
+	"author": {
+		"name": "Andreas Waigand",
+		"email": "mail@andreaswaigand.de",
+		"url": "https://andreaswaigand.de"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		""
+	],
+	"dependencies": {
+		"axios": "^0.18.0",
+		"csv-writer": "^1.2.0",
+		"prompt": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.21.0"
+	}
+}
