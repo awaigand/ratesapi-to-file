@@ -52,6 +52,19 @@ The filename for your csv file.
 
 Type: `string`<br>
 Example: `"myCSVFile.csv"`
+
+#### Returns
+
+```
+from,to,rate
+USD,EUR,0.8712
+USD,GBP,0.7676
+EUR,GBP,0.88103
+EUR,USD,1.1478
+GBP,EUR,1.135
+GBP,USD,1.3028
+```
+
 ### getAllRatesJsons(froms, to)
 
 Gets all exchange rates from `froms` to `to` and
