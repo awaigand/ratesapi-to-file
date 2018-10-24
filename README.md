@@ -1,4 +1,4 @@
-# ratesapi-to-file [![Build Status](https://travis-ci.org/awaigand/ratesapi-to-file.svg?branch=master)](https://travis-ci.org/awaigand/ratesapi-to-file)
+# ratesapi-to-file [![Build Status](https://travis-ci.com/awaigand/ratesapi-to-file.svg?branch=master)](https://travis-ci.com/awaigand/ratesapi-to-file)
 
 > The cli grabs the current exchange rates from ratesapi.io and writes them to a formatted csv file. You can also use it in a node module.
 
