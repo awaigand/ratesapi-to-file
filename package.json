@@ -1,6 +1,6 @@
 {
 	"name": "ratesapi-to-file",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Grabs the current exchange rates from ratesapi.io and writes them to a formatted csv file",
 	"license": "MIT",
 	"repository": "awaigand/ratesapi-to-file",
