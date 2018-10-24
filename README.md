@@ -2,6 +2,16 @@
 
 > The cli grabs the current exchange rates from ratesapi.io and writes them to a formatted csv file. You can also use it in a node module.
 
+## Example Output
+```
+from,to,rate
+USD,EUR,0.8712
+USD,GBP,0.7676
+EUR,GBP,0.88103
+EUR,USD,1.1478
+GBP,EUR,1.135
+GBP,USD,1.3028
+```
 
 ## Install
 
